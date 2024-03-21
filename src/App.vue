@@ -10,7 +10,7 @@ import SpaceTime from './components/SpaceTime.vue';
     <h3>Quantum Visual Experiments</h3>
     </div>
     <div id="info">
-      <h3>Space  Time</h3>
+      <h3>Space Time</h3>
     <p>The fundamental concepts of classical physics, space, time, mass, and derived concepts.</p>
     </div>
   <div id="spaceContainer">
@@ -35,6 +35,7 @@ import SpaceTime from './components/SpaceTime.vue';
 #slot1 {
  display: flex 2fr 2fr 2fr;
  overflow-x: hidden;
+ 
 }
 #titles {
   position: absolute;
@@ -72,4 +73,5 @@ import SpaceTime from './components/SpaceTime.vue';
   font-size: small;
   align-self: center;
 }
+
 </style>
